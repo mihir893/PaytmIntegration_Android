@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\PaytmINtegration Work in Android\Paytm_Android_App_Kit-master\SampleMerchantApp\app\libs\PGSDK_V2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b49db2b817fe96cba5c26fb814cfc7f5b2803a82">
+        <dex dex="D:\PaytmINtegration Work in Android\Paytm_Android_App_Kit-master\SampleMerchantApp\app\build\intermediates\pre-dexed\debug\PGSDK_V2.1_73beded73b9f0fc02ecfc5f797510bb82a3d8946.jar" />
+    </item>
+
+</items>
