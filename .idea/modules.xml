@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PGSDK/PGSDK.iml" filepath="$PROJECT_DIR$/PGSDK/PGSDK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SampleMerchantApp.iml" filepath="$PROJECT_DIR$/SampleMerchantApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaytmIntegration_Android.iml" filepath="$PROJECT_DIR$/PaytmIntegration_Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -2,5 +2,9 @@
     {
         "merged": "D:\\PaytmINtegration Work in Android\\Paytm_Android_App_Kit-master\\SampleMerchantApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\merchantapp.xml",
         "source": "D:\\PaytmINtegration Work in Android\\Paytm_Android_App_Kit-master\\SampleMerchantApp\\app\\src\\main\\res\\layout\\merchantapp.xml"
+    },
+    {
+        "merged": "D:\\V-Card_old\\PaytmIntegration_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\merchantapp.xml",
+        "source": "D:\\V-Card_old\\PaytmIntegration_Android\\app\\src\\main\\res\\layout\\merchantapp.xml"
     }
 ]

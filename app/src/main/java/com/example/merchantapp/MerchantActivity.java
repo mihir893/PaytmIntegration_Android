@@ -39,7 +39,7 @@ public class MerchantActivity extends Activity {
 
     PaytmPGService Service;
 
-    String CHECKSUMHASH,orderid,customerid;
+    String CHECKSUMHASH1,orderid,customerid;
 
     RequestQueue requestQueue;
 
@@ -74,7 +74,7 @@ public class MerchantActivity extends Activity {
 	public void onStartTransaction(View view) {
 
 
-        CHECKSUMHASH="";
+        CHECKSUMHASH1="";
         orderid="";
         customerid="";
 
@@ -225,9 +225,9 @@ public class MerchantActivity extends Activity {
 
                                 JSONObject jsonObject = new JSONObject(response.toString());
 
-                                CHECKSUMHASH = jsonObject.has("CHECKSUMHASH") ? jsonObject.getString("CHECKSUMHASH") : "";
+                                CHECKSUMHASH1 = jsonObject.has("CHECKSUMHASH") ? jsonObject.getString("CHECKSUMHASH") : "";
 
-                                Toast.makeText(MerchantActivity.this, CHECKSUMHASH, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MerchantActivity.this, CHECKSUMHASH1, Toast.LENGTH_SHORT).show();
 
                                 CallPaytmIntegration();
                             }
@@ -322,7 +322,7 @@ public class MerchantActivity extends Activity {
         paramMap.put("TXN_AMOUNT", "1.00"); // transaction amount
         paramMap.put("WEBSITE", "APP_STAGING");//Provided by Paytm
         paramMap.put("CALLBACK_URL","https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp");//Provided by Paytm
-        paramMap.put( "CHECKSUMHASH" , CHECKSUMHASH);
+        paramMap.put( "CHECKSUMHASH" , CHECKSUMHASH1);
 
         PaytmOrder Order = new PaytmOrder(paramMap);
 
